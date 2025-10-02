@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Web Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- 🔹 Header -->
+  <header>
+    <nav>
+      <h1 class="logo">MyPortfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 🔹 Home Section -->
+  <main class="wrap">
+    <div class="home-section" id="home">
+      <div class="photo-wrap">
+        <svg class="scribble" viewBox="0 0 600 600" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1">
+              <stop offset="0%" stop-color="#ffe9d7" />
+              <stop offset="100%" stop-color="#f8d7b3" />
+            </linearGradient>
+          </defs>
+          <g transform="translate(40,40)">
+            <path d="M120 10C200 -10 340 0 420 60C480 110 520 220 470 300C420 380 320 420 220 420C140 420 40 380 10 300C-30 190 40 60 120 10Z" fill="url(#g1)" opacity="0.95" />
+          </g>
+        </svg>
+        <div class="photo">
+          <img src="assets/image/34.jpg" alt="My profile">
+        </div>
+      </div>
+
+      <section class="content">
+        <div class="title-meta">
+          <h1>Hey I'm <span style="color:var(--accent)">Andrei Bainto</span></h1>
+        </div>
+        <div class="role">I'm a Developer</div>
+        <p class="lead">
+          I create beautiful and functional web experiences — crafting clean interfaces, thoughtful interactions, and accessible layouts. 
+          I specialize in front-end development, UI design, and responsive websites.
+        </p>
+
+        <div class="socials">
+          <a href="#" title="Twitter">T</a>
+          <a href="#" title="LinkedIn">in</a>
+          <a href="#" title="GitHub">GH</a>
+        </div>
+
+        <div class="cta-row">
+          <a class="btn-download" href="#">Download CV</a>
+          <a class="btn-ghost" href="#contact">Contact Me</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- 🔹 About Section -->
+  <section id="about">
+    <div class="about-section">
+      <h2>About Me</h2>
+      <p>Hello! I am [Your Name], a student passionate about web development and design. 
+         This is my portfolio where I showcase my projects and skills.</p>
+    </div>
+  </section>
+
+  <!-- 🔹 Projects Section -->
+  <section id="projects">
+    <div class="projects-section">
+      <h2>My Projects</h2>
+      <div class="project-card">
+        <img src="assets/image/35.png" alt="Project 1 Screenshot">
+        <h3>Project 1</h3>
+        <p>Short description of your project here.</p>
+      </div>
+      <div class="project-card">
+        <img src="assets/images/project2.png" alt="Project 2 Screenshot">
+        <h3>Project 2</h3>
+        <p>Another project description here.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ Resume Section -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <img src="assets/image/Screenshot 2025-09-30 160459.png" alt="Resume Screenshot">
+    <p>Include details about your education and work experience.</p>
+  </section>
+
+  <!-- 🔹 Contact Section -->
+  <section id="contact">
+    <div class="contact-section">
+      <h2>Contact Me</h2>
+      <p>Instagram: <a href="https://www.instagram.com/jrich_lotilla/">www.instagram.com/jrich_lotilla</a></p>
+      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    </div>
+  </section>
+
+  <!-- 🔹 Footer -->
+  <footer>
+    <div class="footer-section">
+      <p>© 2025 My Portfolio | Designed by Me</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
